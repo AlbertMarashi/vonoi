@@ -1,0 +1,21 @@
+{
+    "eslint.validate": [
+        "javascript",
+        "svelte",
+        "typescript",
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "svelte.enable-ts-plugin": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    // "workbench.editor.customLabels.enabled": true,
+    // "workbench.editor.customLabels.patterns": {
+    //     "**/routes/**/+page.svelte": "${dirname(2)}/${dirname(1)}/${dirname}",
+    //     "**/routes/**/+page.ts": "${dirname(2)}/${dirname(1)}/${dirname} [page]",
+    //     "**/routes/**/+server.ts": "${dirname(2)}/${dirname(1)}/${dirname} [server]",
+    //     "**/routes/**/+layout.svelte": "${dirname(2)}/${dirname(1)}/${dirname} [layout]",
+    //     "**/routes/**/+layout.ts": "${dirname(2)}/${dirname(1)}/${dirname} [layout]",
+    // }
+}
